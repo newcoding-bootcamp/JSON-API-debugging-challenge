@@ -1,5 +1,3 @@
-const db = require('../models')
-
 exports.getTodos = (req, res) => {
   db.Todo.find() // find all todos
     .then(
