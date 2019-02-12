@@ -1,5 +1,4 @@
 const express = require('express');
-const router = express.Router();
 const db = require('../models'); // index file in /models will direct require() to the right model
 const helpers = require('./helpers/todos')
 
